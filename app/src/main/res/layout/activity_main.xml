@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:padding="15dp"
+        android:background="#FFEB3B"/>
+    <EditText
+        android:id="@+id/panjang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Panjang"
+        android:layout_marginTop="30dp"/>
+    <EditText
+        android:id="@+id/lebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Lebar"
+       />
+    <EditText
+        android:id="@+id/tinggi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Tinggi"
+        />
+    <Button
+        android:id="@+id/volume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volume"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FFEB3B"/>
+    <TextView
+        android:id="@+id/tvhasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0.0"
+        android:textSize="100sp"
+        android:layout_gravity="center"/>
+
+
+    <Button
+        android:id="@+id/count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COUNT"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#2196F3"
+        />
+    <TextView
+        android:id="@+id/tvcount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="100sp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/pindahlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pindah layout"
+        android:backgroundTint="#DD7094"
+        />
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout>
